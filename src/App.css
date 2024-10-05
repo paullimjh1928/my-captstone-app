@@ -1,0 +1,43 @@
+/* Container for the logo and title */
+.container 
+{
+	display: flex;
+	justify-content: center;
+	flex-flow: wrap;
+	margin: 20px;
+	column-gap: 10px;
+	align-items: center;
+	flex-direction: column;
+}
+
+/* Logo */
+.logo 
+{
+	height: 150px;
+	padding: 10px;
+}
+
+/* Title */
+h1 
+{
+	font-size: 50px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+/* Main content */
+.main-content 
+{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start; 
+	width: 100%; 
+	max-width: 800px; 
+	margin: 0 auto; 
+}
+
+/* StockForm and StockList */
+.stock-form, .stock-list 
+{
+	width: 100%; 
+}

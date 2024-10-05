@@ -1,0 +1,72 @@
+/* Form */
+form 
+{
+	display: flex;
+	justify-content: space-between;
+	gap: 10px; 
+	margin-bottom: 10px; 
+}
+
+/* Input fields */
+form input 
+{
+	padding: 10px;
+	font-size: 1rem;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	height: 10px; 
+	width: 30%; 
+}
+
+/* Button */
+form button 
+{
+	padding: 10px 10px;
+	font-size: 1rem;
+	color: white;
+	background-color: #007bff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	height: 35px;
+	width: 30%; 
+}
+
+/* Button hover effect */
+form button:hover 
+{
+	background-color: #0056b3;
+}
+
+/* Align the stock list with the form */
+.stock-list-container 
+{
+	width: 100%; 
+	max-width: 700px; 
+	margin: 0 auto; 
+	text-align: left; 
+}
+
+/* Style for the h2 tag */
+.stock-list-container h2 
+{
+	font-size: 1.5rem;
+	margin-bottom: 15px;
+	text-align: left; 
+}
+
+/* Style for the paragraph */
+.stock-list-container p 
+{
+	color: #777;
+	font-size: 1rem;
+	/* margin-left: 5px; */
+}
+
+/* Align the ul and remove default padding */
+.stock-list-container ul 
+{
+	padding-left: 0; 
+	margin-left: 0; 
+	list-style-type: none;
+}
